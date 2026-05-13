@@ -1,36 +1,36 @@
-name: generate-snake
+name: profile-dynamics
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily at midnight UTC
-  workflow_dispatch:        # manual trigger
+    - cron: "0 */6 * * *"     # every 6 hours
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  generate:
+  stats-card:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-
+    timeout-minutes: 3
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Generate snake
-        uses: Platane/snk@v3
+      - uses: actions/setup-python@v5
         with:
-          github_user_name: MainEmis
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          python-version: "3.12"
 
-      - name: Push to output branch
+      - name: Generate stats card
+        run: python .github/scripts/stats-card.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: MainEmis
+
+      - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          keep_history: false
+          commit_message: "stats-card: refresh [${{ github.run_number }}]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
