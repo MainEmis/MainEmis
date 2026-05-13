@@ -49,7 +49,7 @@ ESP8266/ESP32 sensors for WiFi-based signal analysis. Passive keypress detection
 | **Signal Keylogger** — RF-based keystroke inference via WiFi CSI | Python · ESP8266 · NumPy · DBSCAN | `[private]` |
 | **Dynamic BTC Wallet** — UTXO shuffling, one address per tx, zero trace | Python · secp256k1 · SHA256 | `[private]` |
 | **Hardened Reverse Proxy** — Nginx · Fail2ban · Honeypot sync | Bash · Lua · Docker | `[private]` |
-| **Hermes Skills** — AI agent toolchain extensions | Python · YAML | [MainEmis/hermes-skills](https://github.com/MainEmis/hermes-skills) |
+
 
 ---
 
