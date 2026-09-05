@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0AFF9D" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#0AFF9D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card -->
+  <rect width="600" height="220" rx="10" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
+  <rect width="600" height="220" rx="10" fill="url(#fade)"/>
+
+  <!-- Accent dot -->
+  <circle cx="16" cy="16" r="4" fill="#0AFF9D" opacity="0.7"/>
+  <circle cx="16" cy="16" r="7" fill="#0AFF9D" opacity="0.15"/>
+
+  <!-- Title -->
+  <text x="30" y="20" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#8B949E">
+    $ neofetch --stdout
+  </text>
+    <text x="20" y="45" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">      :---:       </text>
+    <text x="20" y="56" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">    :-------:     </text>
+    <text x="20" y="67" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">  :----------:   </text>
+    <text x="20" y="78" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">:--------=-----: </text>
+    <text x="20" y="89" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">:------=++*=---: </text>
+    <text x="20" y="100" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">:-----=+***+==-: </text>
+    <text x="20" y="111" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">:----=+****+=--: </text>
+    <text x="20" y="122" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">:---=+*****+---: </text>
+    <text x="20" y="133" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">:--=+******=---: </text>
+    <text x="20" y="144" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">:--+******=----: </text>
+    <text x="20" y="155" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7"> :+******=----:  </text>
+    <text x="20" y="166" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">  :+***+=----:   </text>
+    <text x="20" y="177" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">   :=+=-----:    </text>
+    <text x="20" y="188" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">    :------:     </text>
+    <text x="20" y="199" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#0AFF9D" opacity="0.7">      :---:       </text>
+    <text x="200" y="45.0" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#484F58">emilio@github</text>
+    <text x="200" y="57.5" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#484F58">───────────────</text>
+    <text x="200" y="70.0" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#484F58">OS</text>
+    <text x="300" y="70.0" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#E6EDF3">macOS Sequoia · Arch Linux</text>
+    <text x="200" y="82.5" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#484F58">Shell</text>
+    <text x="300" y="82.5" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#E6EDF3">zsh · bash</text>
+    <text x="200" y="95.0" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#484F58">Editor</text>
+    <text x="300" y="95.0" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#E6EDF3">terminal-first, dark mode</text>
+    <text x="200" y="107.5" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#484F58">Focus</text>
+    <text x="300" y="107.5" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#E6EDF3">Backend · Security · Signal Processing</text>
+    <text x="200" y="120.0" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#484F58">Lang</text>
+    <text x="300" y="120.0" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#E6EDF3">Python · Node.js · C · Bash</text>
+    <text x="200" y="132.5" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#484F58">Location</text>
+    <text x="300" y="132.5" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#E6EDF3">Mexico</text>
+    <text x="200" y="145.0" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#484F58">───────────────</text>
+    <text x="200" y="157.5" font-family="SF Mono,Menlo,monospace" font-size="10" fill="#E6EDF3">building something that breaks before it ships</text>
+  <rect x="0" y="219" width="600" height="1" fill="#21262D"/>
+  <rect x="0" y="219" width="80" height="1" fill="#0AFF9D" opacity="0.5"/>
+
+  <!-- Timestamp -->
+  <text x="580" y="204" font-family="SF Mono,Menlo,monospace" font-size="9" fill="#484F58" text-anchor="end">
+    refreshed Sep 05, 2026 · 14:50 UTC
+  </text>
+</svg>
